@@ -9,8 +9,20 @@
 	text-decoration: line-through;
 	color: red;
 }
+.footer{
+	margin: auto;
+}
+.container{
+	background-color: orange;
+	margin: auto;
+}
+.header{
+	background-color: green;
+	margin: auto;
+}
 </style>
 </head>
+<div class="container">
 <body>
 <div class="header">
 <h2>Todo App</h2>
@@ -26,6 +38,7 @@
 	<input type="checkbox" ng-model="todo.done" />
 	<span ng-class="{'done':todo.done}">build an app</span>
 	</li>
+</ul>
 </div>
 
 <script type="text/javascrpt" src="bower_components/angular/angular.min.js"></script>
@@ -50,10 +63,18 @@
 
 </script>
 
-<div>
+<div class="footer">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br>
 <footer>
-	
+	Powered by Greenlight technologies
 </footer>
+</div>
 </div>
 </body>
 
